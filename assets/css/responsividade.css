@@ -1,0 +1,204 @@
+/* Estilos para desktops */
+@media (min-width: 1025px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*Header*/
+    .logo {
+        font-size: 1.6rem;
+    }
+
+    .menu-icon, .close-icon {
+        font-size: 2rem;
+    }
+
+    /*Menu Navegação*/
+    .lista-navegacao li {
+        font-size: 3rem;
+    }
+
+    /*Home*/
+    .text-home h1 {
+        font-size: 3.7rem;
+    }
+
+    .text-home span {
+        font-size: 2.7rem;
+    }
+
+    .redes-sociais a {
+        font-size: 1.6rem;
+    }
+
+    .text-home span {
+        font-size: 3.7rem;
+    }
+
+    .redes-sociais a {
+        font-size: 1.6rem;
+    }
+
+    /*Headline*/
+    .headline span {
+        font-size: 1.6rem;
+    }
+
+    .headline h1 {
+        font-size: 3.1rem;
+    }
+
+    .headline h1,
+    .headline span {
+        margin-left: 70px;
+    }
+
+    /*About*/
+    .about {
+        width: 95%;
+        height: calc(100vh - 90px);
+    }
+
+    .container-about {
+        height: calc(100vh - 90px);
+        display: flex;
+        align-items: center;
+    }
+
+    .content-about {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .content-about-left {
+        width: 50%;
+        height: 100%;
+    }
+
+    .content-about-right {
+        width: 50%;
+        height: 100%;
+    }
+
+    .img-about img {
+        width: 100%;
+    }
+
+    .content-about-left h1 {
+        font-size: 2rem;
+    }
+
+    .cta-about {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        padding-top: 1.6rem;
+    }
+    
+    .btn-about {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+    .about-social {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+        gap: 0.8rem;
+        cursor: pointer;
+        height: 100%;
+        padding: 0;
+        margin-left: -280px;
+    }
+
+    /*Skills*/
+    .skills {
+        display: flex;
+        width: 95%;
+        max-width: 1920px;
+        height: calc(100vh - 90px);
+        align-items: center;
+        padding: 0;
+    }
+
+    .container-skills {
+        width: 100%;
+        height: calc(100vh - 90px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .skills-headline span {
+        font-size: 1.6rem;
+    }
+
+    .skills-headline h1 {
+        font-size: 2rem;
+    }
+
+    .skills-headline, .skills-info {
+        width: 50%;
+        height: calc(100vh - 90px);
+    }
+
+    .card-tech {
+        width: 150px;
+        height: 150px;
+    }
+
+    /*Projetos*/
+    .projects {
+        width: 95%;
+        height: auto;
+    }
+
+    .cards-projects {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5rem; 
+        justify-items: center; 
+    }
+
+    .card-project {
+        max-width: 420px; 
+        width: 100%; 
+    }
+
+    /*Contato*/
+    .contact {
+        width: 95%;
+    }
+    
+    .content-contact {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: calc(100vh - 90px);
+    }
+
+    .left-contact, .right-contact {
+        max-width: 48%;
+    }
+
+    .text-contact h1 {
+        font-size: 2.5rem;
+    }
+} 

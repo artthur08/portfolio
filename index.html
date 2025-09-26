@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="assets/image/favicon-rmdev.ico">
+
+    <title>Arthur Cavalcante</title>
+    <meta name="description"
+        content="AC Developer: Soluções digitais personalizadas para elevar sua presença online. Criação de sites, otimização de SEO, e-commerce e muito mais. Transforme suas ideias digitais em realidade com RM Developer.">
+
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsividade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
+        integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--EmailJS-->
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-80XVHS2NWN">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-80XVHS2NWN');
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '756368293168994');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=756368293168994&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+
+<body>
+
+    <header id="header" class="header">
+        <div class="container-header">
+            <div class="logo">
+                <a href="#home">Arthur Cavalcante <span class="destaque">│Dev.</span></a>
+            </div>
+            <div class="menu">
+                <label class="hamburger">
+                    <input type="checkbox" id="menuToggle">
+                    <svg viewBox="0 0 32 32">
+                        <path class="line line-top-bottom"
+                            d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                        </path>
+                        <path class="line" d="M7 16 27 16"></path>
+                    </svg>
+                </label>
+            </div>
+            <div class="menu-aberto">
+                <nav class="nav-menu">
+                    <a href="#home">INÍCIO</a>
+                    <a href="#about">SOBRE</a>
+                    <a href="#services">SERVIÇOS</a>
+                    <a href="#projects">PROJETOS</a>
+                    <a href="#contact">CONTATO</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="home">
+        <div id="particles-js"></div>
+        <div class="container-home">
+            <div class="text-home">
+                <h1>Arthur Cavalcante</h1>
+                <span>Desenvolvedor <span class="destaque texto-animado"></span></span>
+            </div>
+            <div class="redes-sociais">
+                <a href="https://github.com/artthur08" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/arthur-cavalcante-7774821a5/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/_arthurncavalcante/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5513991361171" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Start Section About-->
+    <section id="about" class="about">
+        <div class="container-about">
+            <div class="headline" data-aos="fade-up">
+                <span class="destaque">Conheça um pouco</span>
+                <h1>SOBRE MIM</h1>
+            </div>
+            <div class="content-about">
+                <div class="content-about-left" data-aos="fade-right">
+                    <h1>Olá, me chamo Arthur Cavalcante</h1>
+                    <p>Sou desenvolvedor web freelancer. Com mais de 1 ano de experiência, tenho
+                        um histórico comprovado de transformar ideias em realidade digital. Além disso, sou
+                        formada com diversos cursos em relação a área.</p>
+                    <p>Atualmente, estou cursando Ciência da Computação para aprofundar ainda mais meus conhecimentos.
+                        Se você está buscando um parceiro para elevar seu negócio online em outro nível, vamos
+                        conversar!</p>
+                    <div class="cta-about">
+                        <!-- <div class="btn-about" data-aos="fade-up">
+                            <a href="https://www.viverdefreelancer.com.br/" target="_blank"><button class="btn">Meu
+                                    e-Book</button></a>
+                            <a href="/assets/Docs/curriculo-dev-ricardo.pdf"
+                                download="curriculo-dev-ricardo.pdf"><button class="btn">Download CV</button></a>
+                        </div>  FUTUROS UPGRADES  -->
+
+                        <div class="about-social" data-aos="fade-up">
+                            <a href="https://github.com/artthur08" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/arthur-cavalcante-7774821a5/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/_arthurncavalcante/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/5513991361171" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-about-right" data-aos="fade-left">
+                    <div class="img-about" id="animatedImage">
+                        <img src="assets/image/about-img.png" alt="Imagem">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chevron-down">
+            <img src="assets/image/arrow (2).png" alt="image">
+        </div>
+    </section>
+    <!--End Section About-->
+
+    <!--Start Section Skills-->
+    <section id="skills" class="skills">
+        <div class="container-skills">
+            <div class="skills-headline">
+                <span class="destaque">Conheça um pouco minhas</span>
+                <h1>Habilidades</h1>
+                <p>Tenho experiência prática com as principais tecnologias de desenvolvimento web, incluindo HTML5,
+                    CSS3, e JavaScript, além de frameworks e plataformas como React, NodeJS, C#,
+                    Figma, WordPress e Wix. Essas ferramentas me permitem criar sites que são não só
+                    visualmente atraentes, mas também otimizados para desempenho e funcionalidade. Me dedico a
+                    desenvolver soluções web que atendem perfeitamente às necessidades dos meus clientes, seja em
+                    projetos simples ou em soluções complexas e personalizadas.</p>
+                <div class="list-about">
+                    <span class="destaque">Soft skills</span>
+                    <div class="container-list" data-aos="fade-up">
+                        <ul>
+                            <li><i class="fa-solid fa-angles-right"></i> Comunicação</li>
+                            <li><i class="fa-solid fa-angles-right"></i> Colaboração</li>
+                            <li><i class="fa-solid fa-angles-right"></i> Resolução</li>
+                            <li><i class="fa-solid fa-angles-right"></i> Adaptabilidade</li>
+                            <li><i class="fa-solid fa-angles-right"></i> Pontualidade</li>
+                        </ul>
+                        <ul>
+                            <li><i class="fa-solid fa-angles-right"></i> Detalhismo</li>
+                            <li><i class="fa-solid fa-angles-right"></i> Crítica</li>
+                            <li><i class="fa-solid fa-angles-right"></i> Criatividade</li>
+                            <li><i class="fa-solid fa-angles-right"></i> Autodidatismo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-info">
+                <div class="card-tech">
+                    <img src="assets/image/skills-img/html5.png" alt="">
+                    <p>HTML5</p>
+                </div>
+                <div class="card-tech" data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/image/skills-img/css3.png" alt="">
+                    <p>CSS3</p>
+                </div>
+                <div class="card-tech" data-aos="fade-up" data-aos-delay="200">
+                    <img src="assets/image/skills-img/javascript.png" alt="">
+                    <p>Javascript</p>
+                </div>
+                <div class="card-tech" data-aos="fade-up" data-aos-delay="500">
+                    <img src="assets/image/skills-img/nodejs.png" alt="">
+                    <p>NodeJS</p>
+                </div>
+                <div class="card-tech" data-aos="fade-up" data-aos-delay="600">
+                    <img src="assets/image/skills-img/react.png" alt="">
+                    <p>React</p>
+                </div>
+                <div class="card-tech" data-aos="fade-up" data-aos-delay="700">
+                    <img src="assets/image/skills-img/icons8-c-250 (1).png" alt="">
+                    <p>C#</p>
+                </div>
+                <div class="card-tech" data-aos="fade-up" data-aos-delay="800">
+                    <img src="assets/image/skills-img/figma.png" alt="">
+                    <p>Figma</p>
+                </div>
+                <div class="card-tech" data-aos="fade-up" data-aos-delay="900">
+                    <img src="assets/image/skills-img/wordpress.png" alt="">
+                    <p>Wordpress</p>
+                </div>
+                <div class="card-tech" data-aos="fade-up" data-aos-delay="1000">
+                    <img src="assets/image/skills-img/wix.png" alt="">
+                    <p>Wix</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Section Skills-->
+
+    <!--Start Section Services-->
+    <section id="services" class="services">
+        <div class="container-services">
+
+            <div class="headline" data-aos="fade-up" data-aos-delay="100">
+                <span class="destaque">Como posso te ajudar</span>
+                <h1>Explore meus serviços</h1>
+            </div>
+
+            <!--start services content-->
+            <div class="content-services">
+                <div class="card-service" data-aos="zoom-in" data-aos-delay="150">
+                    <i class="fa fa-laptop-code"></i>
+                    <h2>Sites Sob Medida</h2>
+                    <p>Crio soluções web únicas, totalmente adaptadas às suas necessidades e objetivos comerciais.</p>
+                </div>
+
+                <div class="card-service" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fa fa-tachometer-alt"></i>
+                    <h2>Acelere Seu Site</h2>
+                    <p>Melhore a performance e a velocidade do seu site para oferecer uma experiência superior aos seus usuários.</p>
+                </div>
+
+                <div class="card-service" data-aos="zoom-in" data-aos-delay="250">
+                    <i class="fa fa-tools"></i>
+                    <h2>Personalização Profunda</h2>
+                    <p>Adaptações técnicas avançadas que alinham seu site às exigências específicas do seu negócio.</p>
+                </div>
+
+                <div class="card-service" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fa fa-headset"></i>
+                    <h2>Suporte Confiável</h2>
+                    <p>Ofereço suporte técnico contínuo para garantir que seu site esteja sempre operacional e eficiente.</p>
+                </div>
+
+                <div class="card-service" data-aos="zoom-in" data-aos-delay="350">
+                    <i class="fa fa-search"></i>
+                    <h2>Estratégias de SEO</h2>
+                    <p>Utilizo técnicas de SEO personalizadas para aumentar a visibilidade do seu site e atrair mais tráfego qualificado.</p>
+                </div>
+
+                <div class="card-service" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fa fa-shopping-cart"></i>
+                    <h2>Lojas Online Impactantes</h2>
+                    <p>Desenvolvo e-commerces personalizados, focados em converter visitantes em clientes efetivos.</p>
+                </div>
+            </div>
+            <!--end services content-->
+        </div>
+
+        <!--Scroll animation-->
+        <div class="chevron-down">
+            <img src="assets/image/arrow (2).png" alt="image">
+        </div>
+
+    </section>
+    <!--End Section Services-->
+
+    <!--Start Section Projects-->
+    <section id="projects" class="projects">
+        <div class="container-projects">
+
+            <div class="headline" data-aos="fade-up" data-aos-delay="100">
+                <span class="destaque">Veja soluções reais</span>
+                <h1>Alguns projetos</h1>
+            </div>
+
+            <div class="content-projects">
+                <div class="cards-projects">
+
+                    <!-- Card Projeto 1-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="150">
+                        <div class="img-project">
+                            <img src="assets/image/projeto-bdn.png" alt="bnd logistics">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>BDN Logistics</h2>
+                                <span>Institucional</span>
+                                <p>Portal multilíngue iluminando o universo da logística com insights, ferramentas de
+                                    contato e cotação, promovendo interação e soluções globais.</p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                    <i class="fab fa-bootstrap"></i>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://www.bdnlogistics.com.br/" target="_blank">Acesse o site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 1-->
+
+                    <!--Card Projeto 2-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="img-project">
+                            <img src="assets/image/projeto-2-tread.png" alt="Tread Skateboard">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>Tread Skateboard</h2>
+                                <span>E-Commerce</span>
+                                <p>Desenvolvido para oferecer uma experiência única, o site reflete a essência do
+                                    skateboarding com design intuitivo e uma plataforma de compras.</p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                    <i class="fab fa-wix"></i>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://www.treadskateboard.com.br/" target="_blank">Acesse o site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 2-->
+
+                    <!--Card Projeto 3-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="250">
+                        <div class="img-project">
+                            <img src="assets/image/projeto-hugo-bartol.png" alt="projeto 3">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>Hugo Bartol</h2>
+                                <span>Tipo de site</span>
+                                <p>Desenvolvido para destacar a criatividade e inovação, este portfólio online exibe os
+                                    melhores trabalhos de design em uma interface moderna.</p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                    <i class="fab fa-wordpress"></i>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://www.hugobartol.com.br/" target="_blank">Acesse o site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 3-->
+
+                    
+        <div class="chevron-down">
+            <img src="assets/image/arrow (2).png" alt="image">
+        </div>
+
+                    <!--Card Projeto 4-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="img-project">
+                            <img src="assets/image/projeto-3-copfy.png" alt="copfy">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>Copfy</h2>
+                                <span>Blog • E-Commerce • Institucional</span>
+                                <p>Portal completo que reúne um blog informativo, uma plataforma de vendas online e um
+                                    diretório de serviços, tudo em um único ambiente. </p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                    <i class="fab fa-wordpress"></i>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://www.home.copfy.com.br/" target="_blank">Acesse o site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 4-->
+
+                    <!--Card Projeto 5-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="350">
+                        <div class="img-project">
+                            <img src="assets/image/projeto-helo-repens.png" alt="Helo Fernandes">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>Helo Fernandes</h2>
+                                <span>E-Commerce</span>
+                                <p>Desenvolvido como uma joalheria online, este site exibe as joias elegantes de Helo
+                                    Fernandes, oferecendo uma experiência de compra luxuosa e intuitiva.</p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                    <i class="fab fa-wix"></i>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://helofernandes.com.br/" target="_blank">Acesse o site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 5-->
+
+                    <!--Card Projeto 6-->
+                    <div class="card-project" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="img-project">
+                            <img src="assets/image/projeto-Ebook.png" alt="Freelancer de Sucesso">
+                        </div>
+
+                        <div class="content-card">
+                            <div class="text-project">
+                                <h2>Freelancer de Sucesso</h2>
+                                <span>Landing Page</span>
+                                <p>Este site fornece recursos essenciais e guias práticos para freelancers, oferecendo uma experiência enriquecedora e motivadora para alcançar a liberdade profissional.</p>
+                            </div>
+                            <div class="cta-project">
+                                <div class="tag-project">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                    <i class="fab fa-bootstrap"></i>
+                                </div>
+                                <div class="btn-project">
+                                    <a href="https://www.viverdefreelancer.com.br/" target="_blank">Acesse o site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Projeto 6-->
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--End Section Projects-->
+
+    <!--Start Section Contact-->
+    <section id="contact" class="contact">
+        <div class="container-contact">
+            <div class="headline" data-aos="fade-up" data-aos-delay="100">
+                <span class="destaque">Vamos conversar</span>
+                <h1>Entre em Contato</h1>
+            </div>
+            <div class="content-contact">
+                <div class="left-contact" data-aos="fade-right" data-aos-delay="200">
+                    <div class="text-contact">
+                        <h1>Pronto para transformar suas ideias em realidade?</h1>
+                        <p>Estou aqui para ajudar você a criar soluções digitais que impulsionam o crescimento do seu negócio. Entre em contato para discutirmos suas necessidades e como podemos alcançar seus objetivos juntos.</p>
+                    </div>
+                    <div class="list-contact">
+                        <span class="destaque">Contate-me</span>
+                        <div class="container-list">
+                            <ul>
+                                <li><i class="fa-solid fa-envelope"></i> Email: contato@arthurcavalcante.com</li>
+                                <li><i class="fa-solid fa-map-marker-alt"></i> Localização: Guarujá, São Paulo - Brasil</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="redes-sociais-contato">
+                        <span class="destaque">Redes Sociais:</span>
+                        <a href="https://github.com/artthur08" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/arthur-cavalcante-7774821a5/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/_arthurncavalcante/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5513991361171" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+    
+                <div class="right-contact" data-aos="fade-left" data-aos-delay="300">
+                    <h2>Envie sua mensagem</h2>
+                    <form id="contact-form">
+                        <label for="name">Nome*</label>
+                        <input type="text" name="user_name" required>
+    
+                        <label for="whatsapp">WhatsApp*</label>
+                        <input type="tel" name="user_phone" required>
+    
+                        <label for="email">E-mail*</label>
+                        <input type="email" name="user_email" required>
+    
+                        <label for="company">Empresa (Opcional)</label>
+                        <input type="text" name="subject">
+    
+                        <label for="message">Mensagem*</label>
+                        <textarea rows="5" name="message" required placeholder="Descreva um pouco do seu projeto..."></textarea>
+    
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                        <p id="form-success" class="success-message">Sua mensagem foi enviada com sucesso!</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Section Contact-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <p>Todos os direitos reservados<br />Desenvolvido <span class="destaque">Arthur Cavalcante │Dev.</span></p>
+    </footer>
+    <!--End Footer-->
+
+    <script src="/assets/js/menu.js"></script>
+
+    <script src="/assets/js/textAnimation.js"></script>
+    <script src="/assets/js/particles.js"></script>
+    <script src="assets/js/changePagesAnimation.js"></script>
+    <script src="assets/js/loadingAnimation.js"></script>
+    <script src="assets/js/imageScroll.js"></script>
+</body>
+
+</html>
